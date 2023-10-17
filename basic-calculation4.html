@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        var Salary = parseFloat(prompt("Enter the value"));
+
+            var hraPercentage = 10;
+            var daPercentage = 5;
+            var taPercentage = 8;
+
+            
+            var hra = (hraPercentage / 100) *Salary;
+            var da = (daPercentage / 100) *Salary;
+            var ta = (taPercentage / 100) *Salary;
+
+            var Gsalary = Salary + hra + da + ta;
+
+            console.log("Base Salary: " + Salary + " RS");
+            console.log("HRA: " + hra.toFixed(2) + " RS");
+            console.log("DA: " + da.toFixed(2) + " RS");
+            console.log("TA: " + ta.toFixed(2) + " RS");
+            console.log("Gross Salary: " + Gsalary + " RS");
+        
+       
+    </script>
+</body>
+
+</html>
